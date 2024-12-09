@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b8d4883.css",
+    "main.js": "/static/js/main.c5b42ec4.js",
+    "static/media/slidEffect.png": "/static/media/slidEffect.60f8efecd84b21ad4a3e.png",
+    "static/media/miniBack.png": "/static/media/miniBack.d455148d55f521d84bf5.png",
+    "static/media/headerImg.png": "/static/media/headerImg.cf58417b78cc272108de.png",
+    "static/media/6.png": "/static/media/6.ba024c38a02c1c3453ee.png",
+    "static/media/woman2.png": "/static/media/woman2.d34884be84fd3be56681.png",
+    "static/media/2.png": "/static/media/2.aa6a501d0387c474b3b4.png",
+    "static/media/5.png": "/static/media/5.1d5f79e986ce7534eafa.png",
+    "static/media/woman1.png": "/static/media/woman1.aa887a8716fc7d2119dc.png",
+    "static/media/woman3.png": "/static/media/woman3.c42b7dddd22e493dedfe.png",
+    "static/media/4.png": "/static/media/4.2d36caeb92f01eb7a565.png",
+    "static/media/1.png": "/static/media/1.d21c43f2acfb1b1c9faa.png",
+    "static/media/3.png": "/static/media/3.b3fa82732487b66be3ec.png",
+    "static/media/inst.png": "/static/media/inst.33c3cc807fc48f44bd67.png",
+    "static/media/7.png": "/static/media/7.ba727c4d7b83e38c581f.png",
+    "static/media/8.png": "/static/media/8.27f76b65dd8587449f54.png",
+    "static/media/360_F_361064765_RP4yD79gKFMdHiaDmTUWiPES6aoAKPkb-removebg-preview.png": "/static/media/360_F_361064765_RP4yD79gKFMdHiaDmTUWiPES6aoAKPkb-removebg-preview.e52e9bc1382bcff20c62.png",
+    "static/media/Telegram-removebg-preview.png": "/static/media/Telegram-removebg-preview.da290b72ad1ef80d3368.png",
+    "static/media/facebook.png": "/static/media/facebook.49cd67928fc1d985281a.png",
+    "index.html": "/index.html",
+    "main.9b8d4883.css.map": "/static/css/main.9b8d4883.css.map",
+    "main.c5b42ec4.js.map": "/static/js/main.c5b42ec4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b8d4883.css",
+    "static/js/main.c5b42ec4.js"
+  ]
+}

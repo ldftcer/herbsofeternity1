@@ -1,0 +1,162 @@
+header {
+    max-width: 100%;
+    max-height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.header {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    gap: 2px;
+}
+
+.logo {
+
+    width: 20%;
+    max-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img {
+    width: 40%;
+}
+
+.logo>h1 {
+    width: 180px;
+    font-size: 19px;
+
+}
+
+.helpmenu {
+    width: 65%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.helpmenu>ul {
+    max-height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.helpmenu>ul>li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.helpmenu>button {
+    background: none;
+}
+
+.helpmenu>button>img {
+    width: 60px;
+
+    display: none;
+}
+
+/* 
+searchk 
+    
+} */
+
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 14%;
+
+}
+
+.search>input {
+    background-image: url(./img/search.png);
+    height: 40px;
+    background-color: gray;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo>img {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .logo>h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .helpmenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        /* Чтобы список находился относительно меню */
+    }
+
+    .helpmenu>button>img {
+        display: block;
+    }
+
+    .helpmenu>ul {
+        display: none;
+        /* Скрываем по умолчанию */
+        flex-direction: column;
+        position: absolute;
+        /* Абсолютное позиционирование */
+        top: 60px;
+        /* Располагаем под кнопкой */
+        right: 0;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Добавляем тень */
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 1000;
+    }
+
+    .helpmenu>ul.open {
+        display: flex;
+        /* Показываем список, когда добавлен класс */
+    }
+
+    .helpmenu>ul>li {
+        border-radius: 20px 0 20px 0;
+        width: 70px;
+        height: 100%;
+        background-color: rgba(151, 148, 148, 0.5);
+        font-size: 18px;
+        padding: 5px 10px;
+        /* Добавляем отступы */
+    }
+
+    .search {
+        display: none;
+    }
+
+    .helpmenu>ul {
+
+        flex-direction: row;
+        margin-top: 50%;
+    }
+}
